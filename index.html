@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WeatherWorks</title>
+
+    <link rel="icon" type="image/x-icon" href="WeatherWorksIcon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d89786278d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js" defer></script>
+
+  </head>
+  <body>
+
+    <div class="body-page">
+      <div class="card">
+        <h1 class="title">WeatherWorks</h1>
+        <div class="search">
+          <input type="text" class="search-bar" placeholder="Search">
+          <button class="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="weather loading">
+          <h2 class="city">Weather in Toronto</h2>
+          <h1 style="margin: 0;" class="temp"> 10°C </h1>
+          <div class="flex">
+            <img src="https://openweathermap.org/img/wn/01d.png" alt="" class="icon">
+            <div class="description">Cloudy</div>
+          </div>
+          <div class="humidity">Humidity: 60%</div>
+          <div class="wind">Wind Speed: 6.2km/h</div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
